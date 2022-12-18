@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2149709128848144957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 156602778, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 156602778, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 176666885, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 176666885, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 296823767, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 296823767, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 670987250, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 670987250, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088880639, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088880639, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623226998, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Version
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908978075, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908978075, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030124928, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030124928, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565123654255998002, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187831984901913981, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_PlayableAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e8cc9b264b5d4d1290ea2976aed1b4f,
+        type: 2}
+    - target: {fileID: 7187831984901913981, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187831984901913981, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].key
+      value: 
+      objectReference: {fileID: -9006291424697532322, guid: 6e8cc9b264b5d4d1290ea2976aed1b4f,
+        type: 2}
+    - target: {fileID: 7187831984901913981, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].value
+      value: 
+      objectReference: {fileID: 2149709129389178951}
+    - target: {fileID: 9083949432177012065, guid: c45fa3b364661f8479a1b7559d083112,
+        type: 3}
+      propertyPath: m_Name
+      value: CAMERA Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c45fa3b364661f8479a1b7559d083112, type: 3}
+--- !u!114 &2149709129389178951 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1623227002, guid: c45fa3b364661f8479a1b7559d083112,
+    type: 3}
+  m_PrefabInstance: {fileID: 2149709128848144957}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
