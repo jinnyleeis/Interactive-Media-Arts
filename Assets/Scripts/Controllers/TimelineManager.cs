@@ -3,19 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using Cinemachine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class TimelineManager : MonoBehaviour
 {
     public PlayableDirector pd0;
     public PlayableDirector pd1;
+    public PlayableDirector pd2;
 
     private bool pd1play = false;
+    private bool sceneload=false;
+
+    private bool pd2play=false;
+
+    private bool pass=false;
     //감독 역할 옵젝컴포넌트들 받아와라.
     //이걸 여기서 
-    
 
-    //public Camera targetCam;
+    public Button button0;
+    public Camera targetCam;
     //public bool isfirsttimeline;
     //씬마다, 초기화해서 이 스크립트를 재활용하자!! 
     //첫 타임라인을 pd로 받고, 나머지를 이용하자 
@@ -29,60 +37,86 @@ public class TimelineManager : MonoBehaviour
     {
        
        
-       // pd = GetComponent<PlayableDirector>();
+    
        
             pd0.Play();
-            pd1.Stop();
+          
+            //접근 & 이벤트 등록
+            button0.onClick.AddListener(Clicked0);
+            
+            
     }
 
     // Update is called once per frame
     void Update()
     {
-       playbyduration(pd0,pd1);
-
-       
-    }
-
-    void timelinecounting(PlayableDirector pd0,PlayableDirector pd1)
-    {
-        if (pd0.time >= pd0.duration)
+        //if (pd0.time >= pd0.duration)
+        if(pd0.state!=PlayState.Playing && !pd1play)
         {
-           // if (Camera.main == targetCam)
-            //{
+             if (Camera.main == targetCam)
+            {
 
-             //   targetCam.GetComponent<CinemachineBrain>().enabled = false;
+               targetCam.GetComponent<CinemachineBrain>().enabled = false;
                 
-          //  }
-            //씨네머신 이용한 카메라 비활성화! -씨네머신에서 벗어나 카메라 제어하기 위해!! 
-           // targetCam.gameObject.SetActive(false);
+              }
+
+            pd1play = true;
+            pd1.Play();
             
         }
-        //gameObject.SetActive(false);
         
+        
+
+        if(pd2.state != PlayState.Playing &&pd2play && pd1play&&!sceneload)
+        {
+            SceneManager.LoadScene("Studio");
+            sceneload = true;
+
+        }
+        
+       
+        
+        
+
+
     }
 
-    public void playbyduration(PlayableDirector pd0,PlayableDirector pd1)
+    public void blackholetimeline()
     {
-        if (pd0.time >= pd0.duration)
+        if(pd0.state!=PlayState.Playing && pd1play&&pd2play&&!pass)
         {
-            // if (Camera.main == targetCam)
-            //{
 
-            //   targetCam.GetComponent<CinemachineBrain>().enabled = false;
-
-            // }
-            //씨네머신 이용한 카메라 비활성화! -씨네머신에서 벗어나 카메라 제어하기 위해!! 
-            // targetCam.gameObject.SetActive(false);
-            if (pd1play == false)
+            pass = true;
+            if (pd1.state == PlayState.Playing)
             {
-                pd1.Play();
+                pd1.Stop();
             }
 
+            pd2.Play();
+            
             
         }
 
     }
-        //gameObject.SetActive(false);
+    
+    
+
+    void Clicked0() {
+            //여기서 재생시키자. 
+            if (pd1.state == PlayState.Playing)
+            {
+                pd1.Stop();
+            }
+            pd2.Play();
+            pd2play = true;
+
+
+
+        }
+
+
+    
+    
         
         
         

@@ -7,9 +7,12 @@
     <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Apple_Silent_Facetracking_Sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Apple_Silent_Facetracking_Sample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0.others/Main CameraTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/Main CameraTimeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/DirectorAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/DirectorAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.others/Realtime Rascals/Animator/Apple_Blinking_Idle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/Realtime Rascals/Animator/Apple_Blinking_Idle.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/Playermovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/Playermovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/nighttimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/nighttimeline.playable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
@@ -20,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Cool Visual Effects - Part 1/Scripts/EffectManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -81,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
-      <workItem from="1671372168861" duration="2962000" />
+      <workItem from="1671372168861" duration="11813000" />
     </task>
     <servers />
   </component>

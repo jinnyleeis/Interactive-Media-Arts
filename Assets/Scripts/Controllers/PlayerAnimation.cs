@@ -12,6 +12,7 @@ public class PlayerAnimation : MonoBehaviour
     public GameObject player1;
     private GameObject player;
     private bool lastspeed;
+    private TimelineManager tm;
     
     private followcam changemethodscript;
 
@@ -32,6 +33,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         player = player1;
         changemethodscript = FindObjectOfType<followcam>();
+        tm = FindObjectOfType<TimelineManager>();
         //Init();
         //여기서, mouseclicked 이벤트 이따가 받아오자!
     }
@@ -145,9 +147,9 @@ public class PlayerAnimation : MonoBehaviour
        if (other.tag == "wall")
        {
 
-
            print("player1");
-           SceneManager.LoadScene("Studio");
+           //tm.blackholetimeline();
+           // SceneManager.LoadScene("Studio");
            //StartCoroutine(COROUTINE());
 
 

@@ -9,7 +9,7 @@ public class Playermovement : MonoBehaviour {
     
     public float speed = 8f; // 이동 속력
     public float rotationSpeed;
-    
+  //  private TimelineManager tm;
     public GameObject player1;
     private GameObject player;
     Vector3 _destPos;
@@ -20,22 +20,10 @@ public class Playermovement : MonoBehaviour {
     {
         player = player1;
         changemethodscript = FindObjectOfType<followcam>();
+       // tm = FindObjectOfType<TimelineManager>();
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        // 충돌한 상대방 게임 오브젝트가 Player 태그를 가진 경우
-        if (other.tag == "wall")
-        {
 
-
-            print("player1");
-            SceneManager.LoadScene("Studio");
-            //StartCoroutine(COROUTINE());
-
-
-        }
-    }
 
 
 
@@ -75,6 +63,21 @@ public class Playermovement : MonoBehaviour {
 
         //만약, x,z인풋이 없다면, speed 도 없을 것이다! 
 
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        // 충돌한 상대방 게임 오브젝트가 Player 태그를 가진 경우
+      //  if (other.tag == "wall")
+       // {
+
+        //    print("player1");
+           // tm.blackholetimeline();
+           // SceneManager.LoadScene("Studio");
+            //StartCoroutine(COROUTINE());
+
+
+       // }
     }
 
     public void Die() {
