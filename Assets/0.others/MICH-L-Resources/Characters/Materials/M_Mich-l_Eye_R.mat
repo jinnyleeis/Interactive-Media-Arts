@@ -206,7 +206,7 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _FaceX: 0.25
-    - _FaceY: -9.124999
+    - _FaceY: -9.624999
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
