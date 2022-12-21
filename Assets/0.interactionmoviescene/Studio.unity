@@ -227,7 +227,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 498733382}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 180}
 --- !u!95 &77542838
 Animator:
@@ -2615,8 +2615,8 @@ Transform:
   - {fileID: 600992811}
   - {fileID: 1801242138}
   - {fileID: 796299008}
-  - {fileID: 1934461208}
   - {fileID: 77542837}
+  - {fileID: 1934461208}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7267,10 +7267,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eca14d3544754ae2b7463af60b3b8da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effects:
-  - {fileID: 839194420}
+  effects: []
   currentEffect: 0
   nextEffect: 1
+  isvfxuse: 0
   pd0: {fileID: 498460592}
   pd1: {fileID: 2057246700}
   pd2: {fileID: 0}
@@ -7342,7 +7342,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 90
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -7367,8 +7367,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416759767}
-  m_LocalRotation: {x: 0, y: 0.9733953, z: -0, w: -0.2291323}
-  m_LocalPosition: {x: 76, y: 46, z: 226}
+  m_LocalRotation: {x: -0.0035199858, y: 0.8045334, z: -0.0047685285, w: -0.5938778}
+  m_LocalPosition: {x: -66.67873, y: 35.059433, z: 379.38977}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11556,7 +11556,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: e2730f4ae0fbe48c7a9bf950915a1f60, type: 2}
   m_InitialState: 0
-  m_WrapMode: 2
+  m_WrapMode: 0
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -11598,6 +11598,8 @@ PlayableDirector:
     value: {fileID: 927501749}
   - key: {fileID: 8718508905978240509, guid: e2730f4ae0fbe48c7a9bf950915a1f60, type: 2}
     value: {fileID: 692093512}
+  - key: {fileID: -2129674465229197021, guid: e2730f4ae0fbe48c7a9bf950915a1f60, type: 2}
+    value: {fileID: 199872773}
   m_ExposedReferences:
     m_References:
     - 63e26d67447124e32ac3c596c42e0c0f: {fileID: 1094294348}

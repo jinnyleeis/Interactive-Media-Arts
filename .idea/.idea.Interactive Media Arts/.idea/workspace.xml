@@ -6,87 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/Kawaii Slimes/Animator/Slime.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/Kawaii Slimes/Animator/Slime.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_AmbientOcclusion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_AmbientOcclusion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_Color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_Color.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_NormalGL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_NormalGL.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_Smoothness(A).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Ground051_1K-PNG/Ground051_1K_Smoothness(A).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Metal035_1K-PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Metal035_1K-PNG/Metal035_1K_Color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Metal035_1K-PNG/Metal035_1K_Color.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Metal035_1K-PNG/Metal035_1K_Metalness(R)_Smoothness(A).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Metal035_1K-PNG/Metal035_1K_Metalness(R)_Smoothness(A).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Metal035_1K-PNG/Metal035_1K_NormalGL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Art/Metal035_1K-PNG/Metal035_1K_NormalGL.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Levels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Levels/GhostShaderDemo_P.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Levels/GhostShaderDemo_P.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Levels/GhostShaderDemo_P.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Levels/GhostShaderDemo_P/PP_GhostShader.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Levels/GhostShaderDemo_P/PP_GhostShader.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Default_Lit_Ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Default_Lit_Ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Default_Lit_Metal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Default_Lit_Metal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Lit.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Lit.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Lit_Ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Lit_Ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Lit_Metal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Lit_Metal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Unlit.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Demo/M_Ghost_Unlit.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Other.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Other/M_FloorPlane.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Materials/Other/M_FloorPlane.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Models/High Poly Teapot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Models/High Poly Teapot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Models/High Poly Torus Knot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Models/High Poly Torus Knot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Default Shader (Ground Material).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Default Shader (Ground Material).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Default Shader (Metal Material).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Default Shader (Metal Material).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Lit (Base Material).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Lit (Base Material).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Lit (Ground Material).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Lit (Ground Material).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Lit (Metal Material).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Lit (Metal Material).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Unlit (Base Material).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Prefabs/Unlit (Base Material).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Scripts/RotateCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/DemoResources/Scripts/RotateCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Materials/M_Ghost_Lit.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Materials/M_Ghost_Lit.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Materials/M_Ghost_Unlit.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Materials/M_Ghost_Unlit.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders/Ghost Lit.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders/Ghost Lit.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders/Ghost Unlit.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders/Ghost Unlit.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders/Subgraphs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders/Subgraphs/GhostSubGraph.shadersubgraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/OccaSoftware/Ghost Shader/Shaders/Subgraphs/GhostSubGraph.shadersubgraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Core/PoolManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Core/PoolManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Core/ResourceManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Core/ResourceManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Core/SoundManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Core/SoundManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Managers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/Managers.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
-      <workItem from="1671372168861" duration="13404000" />
+      <workItem from="1671372168861" duration="14083000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
     public int currentEffect = 0;
     public int nextEffect = 1;
     private bool pd1play;
+    public bool isvfxuse = false;
 
     public PlayableDirector pd0, pd1, pd2;
     // Start is called before the first frame update
@@ -24,9 +25,12 @@ public class SPACESCENEMANAGER : MonoBehaviour
         }
         
         pd0.Play();
+        if (isvfxuse)
+        {
 
-        effects[currentEffect].SetActive(true);
-        
+            effects[currentEffect].SetActive(true);
+        }
+
     }
 
     // Update is called once per frame
@@ -35,15 +39,19 @@ public class SPACESCENEMANAGER : MonoBehaviour
 
         if (pd0.state != PlayState.Playing && !pd1play)
         {
+            if (isvfxuse)
+            {
 
-            vfxs[currentEffect].Stop();
-            effects[currentEffect].SetActive(false);
+                vfxs[currentEffect].Stop();
+                effects[currentEffect].SetActive(false);
+                effects[nextEffect].SetActive(true);
+                vfxs[nextEffect].Play();
+            }
 
             pd1play = true;
             pd1.Play();
 
-            effects[nextEffect].SetActive(true);
-            vfxs[nextEffect].Play();
+           
         }
 
     }
