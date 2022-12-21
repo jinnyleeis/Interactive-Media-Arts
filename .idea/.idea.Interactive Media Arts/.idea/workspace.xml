@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/SoulController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/SoulController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
@@ -16,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Cool Visual Effects - Part 1/Scripts/EffectManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/FollowingWorld.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SoulController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
-      <workItem from="1671372168861" duration="16320000" />
+      <workItem from="1671372168861" duration="18764000" />
     </task>
     <servers />
   </component>

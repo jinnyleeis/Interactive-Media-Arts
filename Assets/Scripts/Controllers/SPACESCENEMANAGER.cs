@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.VFX;
+using GameObject = UnityEngine.GameObject;
 
 public class SPACESCENEMANAGER : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class SPACESCENEMANAGER : MonoBehaviour
     public int currentEffect = 0;
     public int nextEffect = 1;
     private bool pd1play;
+    public bool pd2play = false;
     public bool isvfxuse = false;
+    public GameObject[] pd2setactivefalse;
 
     public PlayableDirector pd0, pd1, pd2;
     // Start is called before the first frame update
@@ -23,6 +26,8 @@ public class SPACESCENEMANAGER : MonoBehaviour
             effects[i].SetActive(false);
             vfxs[i] = effects[i].GetComponent<VisualEffect>();
         }
+        
+     
         
         pd0.Play();
         if (isvfxuse)
@@ -54,5 +59,24 @@ public class SPACESCENEMANAGER : MonoBehaviour
            
         }
 
+    }
+
+    public void pd2timelineplay()
+    {
+        //only conditions about timeline are left in this manager script
+        
+        if (pd0.state != PlayState.Playing && pd1.state != PlayState.Playing&&pd1play)
+        {
+            pd2play = true;
+            
+            for (int i = 0; i < pd2setactivefalse.Length; ++i)
+            {
+                pd2setactivefalse[i].SetActive(false);
+            }
+            
+            pd2.Play();
+
+           
+        }
     }
 }

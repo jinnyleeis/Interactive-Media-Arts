@@ -9,13 +9,15 @@ public class SoulController : MonoBehaviour
 {
     private Animator anim;
     // 마우스로 클릭해서 인식 후 대화
-    private 
+    private SPACESCENEMANAGER spmanager;
 
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        spmanager = FindObjectOfType<SPACESCENEMANAGER>();
+        //there is only one comp of this type in this scene!
     }
     // Update is called once per frame
 
@@ -23,10 +25,7 @@ public class SoulController : MonoBehaviour
     {
         anim.SetBool("Damage", true);
         anim.SetInteger("DamageType", 1);
-        talkPanel.SetActive(true);
-        nametag.SetActive(true);
-        
-        
+
     }
 
     private void OnMouseDown()
@@ -43,6 +42,10 @@ public class SoulController : MonoBehaviour
 
             if (hit.transform.gameObject.tag == "Soul") 
             {
+                //conversation timeline start!!
+                if(!spmanager.pd2play)
+                {spmanager.pd2timelineplay();}
+                
 
             }
 
