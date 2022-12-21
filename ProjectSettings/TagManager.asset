@@ -7,6 +7,7 @@ TagManager:
   - Character
   - MasterPlayable
   - wall
+  - Soul
   layers:
   - Default
   - TransparentFX

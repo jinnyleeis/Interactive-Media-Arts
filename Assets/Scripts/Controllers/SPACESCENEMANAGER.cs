@@ -11,7 +11,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
     private VisualEffect[] vfxs;
     public int currentEffect = 0;
     public int nextEffect = 1;
-    private bool pd1play;
+    public bool pd1play;
     public bool pd2play = false;
     public bool isvfxuse = false;
     public GameObject[] pd2setactivefalse;
@@ -67,7 +67,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
         
         if (pd0.state != PlayState.Playing && pd1.state != PlayState.Playing&&pd1play)
         {
-            pd2play = true;
+           
             
             for (int i = 0; i < pd2setactivefalse.Length; ++i)
             {
@@ -75,6 +75,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
             }
             
             pd2.Play();
+            pd2play = true;//wow this variable's  postition is very important
 
            
         }
