@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/cinemachinetomaincam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/cinemachinetomaincam.cs" afterDir="false" />
-    </list>
+    <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
-      <workItem from="1671372168861" duration="23377000" />
+      <workItem from="1671372168861" duration="23677000" />
     </task>
     <servers />
   </component>
