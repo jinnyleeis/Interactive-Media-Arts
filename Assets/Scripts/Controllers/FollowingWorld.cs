@@ -18,7 +18,7 @@ public class FollowingWorld : MonoBehaviour
         //The first enabled Camera component
         //that is tagged "MainCamera" (Read Only).
         
-        
+        gameObject.SetActive(false);
         
     }
 

@@ -9,6 +9,7 @@ public class cinemachinetomaincam : MonoBehaviour
 {
 
     private SPACESCENEMANAGER spmanager;
+  
 
     public Transform newmaincampos;
     public Camera virtualcams;
@@ -41,6 +42,7 @@ public class cinemachinetomaincam : MonoBehaviour
             virtualcams.GetComponent<CinemachineBrain>().enabled = false;
             //virtualcams.gameObject.SetActive(false);
             spmanager.pd1.gameObject.SetActive(false);
+            
             Camera.main.transform.position = newmaincampos.position;
            
 
