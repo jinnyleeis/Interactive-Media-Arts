@@ -1336,7 +1336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newmaincampos: {fileID: 127557886}
-  virtualcams: {fileID: 2057246698}
+  virtualcams: {fileID: 1416759769}
 --- !u!1 &128713511
 GameObject:
   m_ObjectHideFlags: 0
@@ -7441,6 +7441,7 @@ MonoBehaviour:
   - {fileID: 199872773}
   - {fileID: 1801242137}
   - {fileID: 77542836}
+  cam: {fileID: 1416759769}
   pd0: {fileID: 498460592}
   pd1: {fileID: 2057246700}
   pd2: {fileID: 144767638}

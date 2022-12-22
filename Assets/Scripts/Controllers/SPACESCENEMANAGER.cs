@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.VFX;
+using Cinemachine;
 using GameObject = UnityEngine.GameObject;
 
 public class SPACESCENEMANAGER : MonoBehaviour
@@ -15,6 +16,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
     public bool pd2play = false;
     public bool isvfxuse = false;
     public GameObject[] pd2setactivefalse;
+    public Camera cam;
 
     public PlayableDirector pd0, pd1, pd2;
     // Start is called before the first frame update
@@ -73,6 +75,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
             {
                 pd2setactivefalse[i].SetActive(false);
             }
+           cam.GetComponent<CinemachineBrain>().enabled = true;
             
             pd2.Play();
             pd2play = true;//wow this variable's  postition is very important

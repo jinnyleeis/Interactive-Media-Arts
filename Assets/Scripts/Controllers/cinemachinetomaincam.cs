@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -10,7 +11,7 @@ public class cinemachinetomaincam : MonoBehaviour
     private SPACESCENEMANAGER spmanager;
 
     public Transform newmaincampos;
-    public GameObject virtualcams;
+    public Camera virtualcams;
     // Start is called before the first frame update
     
     void Start()
@@ -29,7 +30,7 @@ public class cinemachinetomaincam : MonoBehaviour
     void Update()
     {
        
-        
+        transition();
     }
 
 
@@ -37,8 +38,11 @@ public class cinemachinetomaincam : MonoBehaviour
     {
         if (spmanager.pd1play && spmanager.pd1.state != PlayState.Playing && !spmanager.pd2play)
         {
+            virtualcams.GetComponent<CinemachineBrain>().enabled = false;
+            //virtualcams.gameObject.SetActive(false);
+            spmanager.pd1.gameObject.SetActive(false);
             Camera.main.transform.position = newmaincampos.position;
-            virtualcams.SetActive(false);
+           
 
         }
         
