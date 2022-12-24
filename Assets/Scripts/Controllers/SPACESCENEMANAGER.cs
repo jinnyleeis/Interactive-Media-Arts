@@ -18,6 +18,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
     public bool isvfxuse = false;
     public GameObject[] pd2setactivefalse;
     public Camera cam;
+    public GameObject afterpd2go;
 
     private bool isbookactive = false;
     public PlayableDirector pd0, pd1, pd2;
@@ -67,9 +68,22 @@ public class SPACESCENEMANAGER : MonoBehaviour
 
         if (pd2play && pd2.state != PlayState.Playing&&!isbookactive)
         {
+            
             bookobj.SetActive(true);
+            afterpd2go.SetActive(true);
             
         }
+        
+        if(pd0.state!=PlayState.Playing &&pd1.state!=PlayState.Playing&&pd2.state!=PlayState.Playing&& pd2play&&pd1play)
+        {
+           
+
+                cam.GetComponent<CinemachineBrain>().enabled = false;
+                
+            
+
+        }
+        
 
     }
 

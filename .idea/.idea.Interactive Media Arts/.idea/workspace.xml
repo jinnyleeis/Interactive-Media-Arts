@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/bookcontroller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/bookcontroller.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Jasper_Badger/Scenes/Jasper_Badger_Facetracking_Sample.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Jasper_Badger/Scenes/Jasper_Badger_Facetracking_Sample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/SoulController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/SoulController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timeline2Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timeline2Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timeline3(conversation!)Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timeline3(conversation!)Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
       <workItem from="1671372168861" duration="23677000" />
-      <workItem from="1671688424611" duration="3953000" />
+      <workItem from="1671688424611" duration="5292000" />
     </task>
     <servers />
   </component>

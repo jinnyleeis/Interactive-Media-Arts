@@ -8,6 +8,7 @@ TagManager:
   - MasterPlayable
   - wall
   - Soul
+  - Book
   layers:
   - Default
   - TransparentFX

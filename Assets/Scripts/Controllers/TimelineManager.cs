@@ -65,16 +65,7 @@ public class TimelineManager : MonoBehaviour
             
         }
         
-        if(pd0.state!=PlayState.Playing &&pd1.state!=PlayState.Playing&&pd2.state!=PlayState.Playing&& pd2play&&pd1play)
-        {
-            if (Camera.main == targetCam)
-            {
-
-                targetCam.GetComponent<CinemachineBrain>().enabled = false;
-                
-            }
-
-        }
+        
         
         
 
