@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/FollowingWorld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/FollowingWorld.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/cinemachinetomaincam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/cinemachinetomaincam.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.others/Cube/Protype/A/Animator/Idle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/Cube/Protype/A/Animator/Idle.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.others/Kawaii Slimes/Animation/EventAnimation/Rig_jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/Kawaii Slimes/Animation/EventAnimation/Rig_jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Apple_Panda/Scenes/Apple_Panda_Facetracking_Sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Apple_Panda/Scenes/Apple_Panda_Facetracking_Sample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timeline2Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timeline2Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timeline3(conversation!)Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timeline3(conversation!)Timeline.playable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
       <workItem from="1671372168861" duration="23677000" />
-      <workItem from="1671688424611" duration="549000" />
+      <workItem from="1671688424611" duration="1209000" />
     </task>
     <servers />
   </component>
