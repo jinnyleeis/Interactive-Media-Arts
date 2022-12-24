@@ -8,6 +8,7 @@ using GameObject = UnityEngine.GameObject;
 
 public class SPACESCENEMANAGER : MonoBehaviour
 {
+    public GameObject bookobj;
     public GameObject[] effects;
     private VisualEffect[] vfxs;
     public int currentEffect = 0;
@@ -18,6 +19,7 @@ public class SPACESCENEMANAGER : MonoBehaviour
     public GameObject[] pd2setactivefalse;
     public Camera cam;
 
+    private bool isbookactive = false;
     public PlayableDirector pd0, pd1, pd2;
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,8 @@ public class SPACESCENEMANAGER : MonoBehaviour
             effects[i].SetActive(false);
             vfxs[i] = effects[i].GetComponent<VisualEffect>();
         }
+        
+        bookobj.SetActive(false);
         
      
         
@@ -59,6 +63,12 @@ public class SPACESCENEMANAGER : MonoBehaviour
             pd1.Play();
 
            
+        }
+
+        if (pd2play && pd2.state != PlayState.Playing&&!isbookactive)
+        {
+            bookobj.SetActive(true);
+            
         }
 
     }

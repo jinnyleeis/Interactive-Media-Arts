@@ -2,14 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SoulController : MonoBehaviour
 {
     private Animator anim;
     // 마우스로 클릭해서 인식 후 대화
     private SPACESCENEMANAGER spmanager;
+   
+    public AudioClip[] clips;
 
 
     // Start is called before the first frame update
@@ -25,6 +29,7 @@ public class SoulController : MonoBehaviour
     {
         anim.SetBool("Damage", true);
         anim.SetInteger("DamageType", 1);
+        
 
     }
 
@@ -48,12 +53,7 @@ public class SoulController : MonoBehaviour
                 
 
             }
-
-            else if (hit.transform.gameObject.tag == "Book")
-            {
-
-
-            }
+            
 
             
         }
