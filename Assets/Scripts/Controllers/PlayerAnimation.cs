@@ -3,16 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
+using Cinemachine;
 
 
 public class PlayerAnimation : MonoBehaviour
 {
+
+    public bool isscene2 = false;
     public float speed = 8f; // 이동 속력
     public float rotationSpeed;
     public GameObject player1;
     private GameObject player;
     private bool lastspeed;
     private TimelineManager tm;
+    public bool isrotate = true;
+    public PlayableDirector pd4;
+    public AudioClip clip;
+    private AudioSource source;
+    public bool iswalking = false;
+    
     
     private followcam changemethodscript;
 
@@ -31,11 +41,13 @@ public class PlayerAnimation : MonoBehaviour
 
     private void Start()
     {
+       if(isscene2){pd4.Play();}
         player = player1;
         changemethodscript = FindObjectOfType<followcam>();
         tm = FindObjectOfType<TimelineManager>();
         //Init();
         //여기서, mouseclicked 이벤트 이따가 받아오자!
+        source = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -51,9 +63,20 @@ public class PlayerAnimation : MonoBehaviour
         if (Mathf.Abs(xSpeed) > 0 || Mathf.Abs(zSpeed) > 0)
         {
             _speed = 10;
+
+            if (!source.isPlaying&&iswalking)
+            {
+                source.PlayOneShot(clip);
+            }
+            
         }
         else
         {
+            if (source.isPlaying&&iswalking)
+            {
+                source.Stop();
+            }
+            
             _speed = 0;
         }
 
@@ -71,22 +94,35 @@ public class PlayerAnimation : MonoBehaviour
         {
             lastspeed = true;
 
-            player.transform.rotation = Quaternion.LookRotation(Vector3.left);
+            if (isrotate)
+            {
+
+                player.transform.rotation = Quaternion.LookRotation(Vector3.left);
+            }
         }
         else if (xSpeed > 0)
         {
             lastspeed = true;
-            player.transform.rotation = Quaternion.LookRotation(Vector3.right);
+            if (isrotate)
+            {
+                player.transform.rotation = Quaternion.LookRotation(Vector3.right);
+            }
         }
         else if (zSpeed < 0)
         {
             lastspeed = true;
-            player.transform.rotation = Quaternion.LookRotation(Vector3.back);
+            if (isrotate)
+            {
+                player.transform.rotation = Quaternion.LookRotation(Vector3.back);
+            }
         }
         else if(zSpeed>0)
         {
             lastspeed = true;
-            player.transform.rotation = Quaternion.LookRotation(Vector3.forward);
+            if (isrotate)
+            {
+                player.transform.rotation = Quaternion.LookRotation(Vector3.forward);
+            }
         }
 
         player.transform.position += newVelocity * Time.deltaTime;
@@ -148,9 +184,9 @@ public class PlayerAnimation : MonoBehaviour
        {
 
            print("player1");
-           //tm.blackholetimeline();
-           // SceneManager.LoadScene("Studio");
-           //StartCoroutine(COROUTINE());
+          
+           SceneManager.LoadScene("Studio2");
+          
 
 
        }

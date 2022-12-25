@@ -401,6 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f71bffcb3d30484caf8885ec7532993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clips: []
 --- !u!95 &108276600
 Animator:
   serializedVersion: 4
@@ -1122,7 +1123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearColorMode: 1
+  clearColorMode: 0
   backgroundColorHDR: {r: 0, g: 0, b: 0, a: 0}
   clearDepth: 1
   volumeLayerMask:
@@ -4283,6 +4284,10 @@ MonoBehaviour:
   speed: 8
   rotationSpeed: 0
   player1: {fileID: 721904402}
+  isrotate: 1
+  pd4: {fileID: 0}
+  clip: {fileID: 0}
+  iswalking: 0
   _destPos: {x: 0, y: 0, z: 0}
   _lockTarget: {fileID: 0}
 --- !u!1001 &789460105
@@ -6318,6 +6323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f71bffcb3d30484caf8885ec7532993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clips: []
 --- !u!95 &1223599896
 Animator:
   serializedVersion: 4

@@ -22,6 +22,7 @@ public class cinemachinetomaincam : MonoBehaviour
         //-> for optimization!!!
         //-> mostly for receive and controll maincam again!!**
         spmanager = FindObjectOfType<SPACESCENEMANAGER>();
+      
 
         
         //position안할뻔.. 걍 newmaincampos라 쓰면, vec3 불가하다고 오류뜬다!!

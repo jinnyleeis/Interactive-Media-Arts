@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.VFX;
 using Cinemachine;
+using UnityEngine.UI;
 using GameObject = UnityEngine.GameObject;
+using UnityEngine.SceneManagement;
 
 public class SPACESCENEMANAGER : MonoBehaviour
 {
@@ -19,6 +21,10 @@ public class SPACESCENEMANAGER : MonoBehaviour
     public GameObject[] pd2setactivefalse;
     public Camera cam;
     public GameObject afterpd2go;
+    public Button text;
+    private bool isbookopen = false;
+    public GameObject vol1;
+    public GameObject vol2;
 
     private bool isbookactive = false;
     public PlayableDirector pd0, pd1, pd2;
@@ -32,7 +38,10 @@ public class SPACESCENEMANAGER : MonoBehaviour
             vfxs[i] = effects[i].GetComponent<VisualEffect>();
         }
         
+        text.onClick.AddListener(Clicked);
+        
         bookobj.SetActive(false);
+        text.gameObject.SetActive(false);
         
      
         
@@ -68,9 +77,12 @@ public class SPACESCENEMANAGER : MonoBehaviour
 
         if (pd2play && pd2.state != PlayState.Playing&&!isbookactive)
         {
+            vol1.SetActive(true);
+            vol2.SetActive(true);
             
             bookobj.SetActive(true);
             afterpd2go.SetActive(true);
+            text.gameObject.SetActive(true);
             
         }
         
@@ -93,6 +105,9 @@ public class SPACESCENEMANAGER : MonoBehaviour
         
         if (pd0.state != PlayState.Playing && pd1.state != PlayState.Playing&&pd1play)
         {
+            
+            vol1.SetActive(true);
+            vol2.SetActive(true);
            
             
             for (int i = 0; i < pd2setactivefalse.Length; ++i)
@@ -106,5 +121,17 @@ public class SPACESCENEMANAGER : MonoBehaviour
 
            
         }
+    }
+
+    void Clicked()
+    {
+        if (!isbookopen)
+        {
+            SceneManager.LoadScene("destinybookscene");
+            isbookopen = true;
+
+        }
+        
+        
     }
 }

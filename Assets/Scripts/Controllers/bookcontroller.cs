@@ -12,21 +12,21 @@ using UnityEngine.SceneManagement;
 public class bookcontroller: MonoBehaviour
 {
 
-    public GameObject text;
+ 
         
         private SPACESCENEMANAGER spmanager;
         private bool isbookopen = false;
         public AudioClip[] clips;
         public int number = 0;
         private AudioSource audio;
-        private IEnumerator routine;
+      
       
         private void Start()
         {
            audio = GetComponent<AudioSource>();
             spmanager = FindObjectOfType<SPACESCENEMANAGER>();
-            text.SetActive(false);
-            routine = coroutine();
+           
+           
             
         }
 
@@ -34,15 +34,11 @@ public class bookcontroller: MonoBehaviour
         {
            if(!audio.isPlaying)
            {audio.PlayOneShot(clips[number]);}
-
-
            
-           if (routine == null)
-           {
-               StartCoroutine(routine);
-           }
-
-
+           
+          
+           
+           
         }
         
         private void OnMouseDown()
@@ -60,7 +56,7 @@ public class bookcontroller: MonoBehaviour
 
                 if (hit.transform.gameObject.tag == "Book")
                 {
-                    if (spmanager.pd2play && spmanager.pd2.state != PlayState.Playing&&!isbookopen)
+                   if (!isbookopen)
                     {
                         SceneManager.LoadScene("destinybookscene");
                         isbookopen = true;
@@ -75,11 +71,5 @@ public class bookcontroller: MonoBehaviour
             }
         }
 
-        IEnumerator coroutine()
-        {
-            text.SetActive(true);
-            yield return new WaitForSeconds(1.5f);
-            text.SetActive(false);
-        }
-        
+      
     }
