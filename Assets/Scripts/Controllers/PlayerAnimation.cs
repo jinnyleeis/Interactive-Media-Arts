@@ -41,7 +41,7 @@ public class PlayerAnimation : MonoBehaviour
 
     private void Start()
     {
-       if(isscene2){pd4.Play();}
+      // if(isscene2){pd4.Play();}
         player = player1;
         changemethodscript = FindObjectOfType<followcam>();
         tm = FindObjectOfType<TimelineManager>();
@@ -180,7 +180,7 @@ public class PlayerAnimation : MonoBehaviour
    void OnTriggerEnter(Collider other)
    {
        // 충돌한 상대방 게임 오브젝트가 Player 태그를 가진 경우
-       if (other.tag == "wall")
+       if (other.tag == "wall2")
        {
 
            print("player1");

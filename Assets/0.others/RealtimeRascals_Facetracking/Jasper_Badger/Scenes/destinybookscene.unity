@@ -1355,7 +1355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &142988934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5519,7 +5519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &830834181
 Transform:
   m_ObjectHideFlags: 0
@@ -5559,7 +5559,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.1
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -8051,7 +8051,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1279226482
 Transform:
   m_ObjectHideFlags: 0
@@ -8091,7 +8091,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.1
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -8658,7 +8658,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1424005725
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9409,7 +9409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1537541617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10281,7 +10281,7 @@ GameObject:
   - component: {fileID: 1683498458}
   m_Layer: 0
   m_Name: GameObject (1)
-  m_TagString: wall
+  m_TagString: wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11429,8 +11429,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
-  m_LocalRotation: {x: 0.027566357, y: -0.7224604, z: 0.028852321, w: 0.69025993}
-  m_LocalPosition: {x: 29.37404, y: 3, z: 16.639074}
+  m_LocalRotation: {x: -0.0006011663, y: 0.9524182, z: -0.0018785578, w: -0.3047879}
+  m_LocalPosition: {x: 17.942137, y: 1.0999994, z: 0.97596836}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12737,7 +12737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2019054885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13265,7 +13265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &2044294632
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19999,7 +19999,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 70
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.1
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -20037,7 +20037,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8070084758692618704
 RectTransform:
   m_ObjectHideFlags: 0

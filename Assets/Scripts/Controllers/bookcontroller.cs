@@ -41,35 +41,35 @@ public class bookcontroller: MonoBehaviour
            
         }
         
-        private void OnMouseDown()
-        {
+       // private void OnMouseDown()
+       // {
             // 마우스로 클릭해서 인식 후 대화
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
+        //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //    RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit))
-            {
-                Debug.Log(hit.transform.gameObject);
+           // if (Physics.Raycast(ray, out hit))
+            //{
+             //   Debug.Log(hit.transform.gameObject);
                 //1. 한번만 재생될 수 있게.
                 //2. 마우스 위로 가져다 놓기만 해도. 클릭 말고는????
                 
 
-                if (hit.transform.gameObject.tag == "Book")
-                {
-                   if (!isbookopen)
-                    {
-                        SceneManager.LoadScene("destinybookscene");
-                        isbookopen = true;
+               // if (hit.transform.gameObject.tag == "Book")
+               // {
+                //   if (!isbookopen)
+                 //   {
+                  //      SceneManager.LoadScene("destinybookscene");
+                   //     isbookopen = true;
 
-                    }
+                  //  }
                 
 
 
-                }
+            //    }
 
             
-            }
-        }
+          //  }
+      //  }
 
       
     }

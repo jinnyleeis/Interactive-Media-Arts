@@ -9,6 +9,7 @@ TagManager:
   - wall
   - Soul
   - Book
+  - wall2
   layers:
   - Default
   - TransparentFX
