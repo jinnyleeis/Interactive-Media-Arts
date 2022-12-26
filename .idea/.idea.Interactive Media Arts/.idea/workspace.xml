@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Apple_Silent_Facetracking_Sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Apple_Silent_Facetracking_Sample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/earthscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/earthscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Jasper_Badger/Scenes/destinybookscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Jasper_Badger/Scenes/destinybookscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/bookcontroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/bookcontroller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/timeline4Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timeline4Timeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
       <workItem from="1671372168861" duration="23677000" />
-      <workItem from="1671688424611" duration="18556000" />
+      <workItem from="1671688424611" duration="19293000" />
     </task>
     <servers />
   </component>
