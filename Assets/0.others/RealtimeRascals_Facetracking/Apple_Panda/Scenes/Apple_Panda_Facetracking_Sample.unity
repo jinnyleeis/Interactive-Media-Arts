@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1133.0098, g: 1116.3164, b: 1225.1055, a: 1}
+  m_IndirectSpecularColor: {r: 1129.2598, g: 1111.3721, b: 1217.8057, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -831,9 +831,9 @@ MonoBehaviour:
     m_Directory: Assets/Takes
     m_SceneNumber: 1
     m_ShotName: maincharacter
-    m_TakeNumber: 27
+    m_TakeNumber: 28
     m_Description: 
-    m_Take: {fileID: 11400000, guid: f65cf438284154674a64f9a0bae554ff, type: 2}
+    m_Take: {fileID: 11400000, guid: 81349c4fb89304d46b622f1951faf01e, type: 2}
     m_IterationBase: {fileID: 0}
     m_Director: {fileID: 643358912}
   m_FrameRate:
@@ -852,7 +852,7 @@ PlayableDirector:
   m_GameObject: {fileID: 643358910}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: -2998367930018295518, guid: f65cf438284154674a64f9a0bae554ff,
+  m_PlayableAsset: {fileID: 8985117884754214894, guid: 81349c4fb89304d46b622f1951faf01e,
     type: 2}
   m_InitialState: 1
   m_WrapMode: 2
@@ -863,7 +863,7 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -949519704668762085, guid: b4da256d1aefb43c5af7eb0d4ba6f1fc, type: 2}
     value: {fileID: 252082839}
-  - key: {fileID: -8858105384570091546, guid: f65cf438284154674a64f9a0bae554ff, type: 2}
+  - key: {fileID: -4309988724552234191, guid: 81349c4fb89304d46b622f1951faf01e, type: 2}
     value: {fileID: 252082839}
   m_ExposedReferences:
     m_References:
@@ -918,62 +918,62 @@ MonoBehaviour:
   m_Channels: 15
   m_Pose:
     BlendShapes:
-      BrowDownLeft: 0.082832836
-      BrowDownRight: 0.08748545
-      BrowInnerUp: 0.07580938
-      BrowOuterUpLeft: 0
-      BrowOuterUpRight: 0
-      CheekPuff: 0.029530168
-      CheekSquintLeft: 0.050204594
-      CheekSquintRight: 0.046247732
-      EyeBlinkLeft: 0.071416594
-      EyeBlinkRight: 0.08865302
-      EyeLookDownLeft: 0.13350248
-      EyeLookDownRight: 0.13399932
-      EyeLookInLeft: 0.12868942
-      EyeLookInRight: 0
+      BrowDownLeft: 0
+      BrowDownRight: 0
+      BrowInnerUp: 0.28430867
+      BrowOuterUpLeft: 0.25821656
+      BrowOuterUpRight: 0.2577788
+      CheekPuff: 0.01154012
+      CheekSquintLeft: 0.06487298
+      CheekSquintRight: 0.060384564
+      EyeBlinkLeft: 3.159027e-10
+      EyeBlinkRight: 3.1589834e-10
+      EyeLookDownLeft: 0.12238605
+      EyeLookDownRight: 0.122356586
+      EyeLookInLeft: 0.011031507
+      EyeLookInRight: 0.10723866
       EyeLookOutLeft: 0
-      EyeLookOutRight: 0.01808198
+      EyeLookOutRight: 0
       EyeLookUpLeft: 0
       EyeLookUpRight: 0
-      EyeSquintLeft: 0.19032177
-      EyeSquintRight: 0.19814332
-      EyeWideLeft: 0
-      EyeWideRight: 0
-      JawForward: 0.08639305
-      JawLeft: 0.1019562
-      JawOpen: 0.06922055
+      EyeSquintLeft: 0.10156822
+      EyeSquintRight: 0.101440065
+      EyeWideLeft: 0.17099091
+      EyeWideRight: 0.17091744
+      JawForward: 0.102891274
+      JawLeft: 0.044242483
+      JawOpen: 0.10756575
       JawRight: 0
-      MouthClose: 0.06922054
-      MouthDimpleLeft: 0.11544805
-      MouthDimpleRight: 0.073214285
+      MouthClose: 0.02778458
+      MouthDimpleLeft: 0.08136666
+      MouthDimpleRight: 0.067663416
       MouthFrownLeft: 0
-      MouthFrownRight: 0.0502918
-      MouthFunnel: 0.03542804
-      MouthLeft: 0.005752609
-      MouthLowerDownLeft: 0.0828393
-      MouthLowerDownRight: 0.09380322
-      MouthPressLeft: 0.04327972
-      MouthPressRight: 0.07747978
-      MouthPucker: 0.078759804
+      MouthFrownRight: 0
+      MouthFunnel: 0.07736918
+      MouthLeft: 0.016659329
+      MouthLowerDownLeft: 0.23738544
+      MouthLowerDownRight: 0.2457192
+      MouthPressLeft: 0.03467615
+      MouthPressRight: 0.037041917
+      MouthPucker: 0.03636098
       MouthRight: 0
-      MouthRollLower: 0.12821941
-      MouthRollUpper: 0.07957722
-      MouthShrugLower: 0.102407925
-      MouthShrugUpper: 0.13305022
-      MouthSmileLeft: 0.012741402
-      MouthSmileRight: 0
-      MouthStretchLeft: 0.13714671
-      MouthStretchRight: 0.094220005
-      MouthUpperUpLeft: 0.03316085
-      MouthUpperUpRight: 0.0203867
-      NoseSneerLeft: 0.07046547
-      NoseSneerRight: 0.073593676
-      TongueOut: 0.00038662672
-    HeadPosition: {x: 0.06337002, y: -0.004672273, z: -0.38408318}
-    HeadOrientation: {x: 0.007131517, y: -0.26332724, z: 0.058901727, w: -0.9628803}
-    LeftEyeOrientation: {x: -0.040915716, y: -0.0055181743, z: -0.00022597273, w: -0.99914736}
-    RightEyeOrientation: {x: -0.04073323, y: -0.039263166, z: -0.0016018833, w: -0.99839705}
+      MouthRollLower: 0.039832003
+      MouthRollUpper: 0.029918546
+      MouthShrugLower: 0.030743282
+      MouthShrugUpper: 0.18044166
+      MouthSmileLeft: 0.10489877
+      MouthSmileRight: 0.07936783
+      MouthStretchLeft: 0.18586473
+      MouthStretchRight: 0.16823255
+      MouthUpperUpLeft: 0.07662964
+      MouthUpperUpRight: 0.06452736
+      NoseSneerLeft: 0.06385786
+      NoseSneerRight: 0.05322201
+      TongueOut: 0.000014176965
+    HeadPosition: {x: -0.043153483, y: -0.08465237, z: -0.43902552}
+    HeadOrientation: {x: 0.15271309, y: -0.14739534, z: 0.07933891, w: -0.97399104}
+    LeftEyeOrientation: {x: -0.037342954, y: 0.03272546, z: 0.0012235758, w: -0.99876577}
+    RightEyeOrientation: {x: -0.037371777, y: -0.0033670224, z: -0.00012592028, w: -0.9992958}
   m_SyncPresentationOffset:
     m_FrameNumber: 0
     m_Subframe:

@@ -6,22 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="504e2f4e-0458-496d-9891-d904e076d81b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interactive Media Arts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/0.interactive-stuff/0.new_music/effectsound/Andika-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/0.interactive-stuff/0.new_music/effectsound/Andika-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/0.interactive-stuff/0.new_music/effectsound/chocolate-covered-raindrops/Chocolate Covered Raindrops BOLD SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/0.interactive-stuff/0.new_music/effectsound/chocolate-covered-raindrops/Chocolate Covered Raindrops BOLD SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Apple_Silent_Facetracking_Sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Apple_Silent_Facetracking_Sample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/characteraudioclips/space-conversationscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/characteraudioclips/space-conversationscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/Graph/Textures/BookPages01_BC.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/Graph/Textures/BookPages01_BC.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Jasper_Badger/Scenes/destinybookscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Jasper_Badger/Scenes/destinybookscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/FollowingWorld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/FollowingWorld.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/SPACESCENEMANAGER.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/bookcontroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/bookcontroller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/cinemachinetomaincam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/cinemachinetomaincam.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.interactionmoviescene/Studio2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/cityscene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.interactionmoviescene/cityscene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Apple_Panda/Scenes/Apple_Panda_Facetracking_Sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0.others/RealtimeRascals_Facetracking/Apple_Panda/Scenes/Apple_Panda_Facetracking_Sample.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/timeline3(conversation!)Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timeline3(conversation!)Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/school/DemoScene/all_objects.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/school/DemoScene/all_objects.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timeline4Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timeline4Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timelinebusTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/timelinebusTimeline.playable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
@@ -37,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SoulController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TimelineManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/cinemachinetomaincam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/timerscript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671372151259</updated>
       <workItem from="1671372168861" duration="23677000" />
-      <workItem from="1671688424611" duration="13269000" />
+      <workItem from="1671688424611" duration="16469000" />
     </task>
     <servers />
   </component>

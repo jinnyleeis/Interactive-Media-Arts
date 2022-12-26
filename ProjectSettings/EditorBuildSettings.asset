@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0.interactionmoviescene/Studio2.unity
     guid: f2676237c9bca4802aa344f10bcf0f79
+  - enabled: 1
+    path: Assets/0.interactionmoviescene/earthscene.unity
+    guid: 7759de288f5d4ee449a0ca5e2244944a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ef20a1fbf88b63b4b94659a0a5166d21,
       type: 2}
